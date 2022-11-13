@@ -12,6 +12,10 @@ const Login = () => {
     if (user.trim().length === 0 || password.trim().length === 0) {
       setError(true);
     }
+    if (user && password) {
+      console.log('user: ', user);
+      console.log('password: ', password);
+    }
   };
 
   return (
