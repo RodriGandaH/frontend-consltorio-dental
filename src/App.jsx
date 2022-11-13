@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import Home from './components/Home';
 import Login from './components/Login';
+import Patients from './components/Patients/Patients';
 
 axios.defaults.baseURL = 'https://alident.herokuapp.com/';
 axios.defaults.headers.post['Accept'] = 'application/json';
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/" element={<Login />} />
+          <Route path="pacientes" element={<Patients />} />
         </Routes>
       </BrowserRouter>
     </div>

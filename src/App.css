@@ -63,3 +63,29 @@
   color: red;
   margin-top: 10px;
 }
+/*Navbar*/
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#links {
+  font-size: 1.2rem;
+
+  cursor: pointer;
+  border-bottom: 1px solid rgb(110, 109, 109);
+}
+#links:hover {
+  color: gray;
+}
+
+#home-title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+.nav-item {
+  margin-right: 20px;
+}
+nav {
+  border-bottom: 1px solid rgb(201, 197, 197);
+}
