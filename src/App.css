@@ -55,7 +55,7 @@
   opacity: 0.8;
 }
 @media (max-width: 991px) {
-  .login {
-    height: 100%;
+  #image-login {
+    display: none;
   }
 }
