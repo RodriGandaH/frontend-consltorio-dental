@@ -4,7 +4,7 @@ import img_happy from '../assets/images/happy.png';
 
 const Login = () => {
   return (
-    <div>
+    <>
       <section className="login py-5 bg-light">
         <div className="container">
           <div className="row g-0">
@@ -53,7 +53,7 @@ const Login = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
